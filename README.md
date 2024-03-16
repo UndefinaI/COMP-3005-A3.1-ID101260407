@@ -5,17 +5,23 @@ Author: Thomas Roche
 
 
 
-Files:
-
-
-
-
 Project details:
 
 
 
 Dependencies: 
-This project uses JDBC, Postgre's Java driver. Install it onto your machine for this application to work. 
+This project uses psycopg3 to work. From the command line:
+	pip install psycopg3
+This is also dependant on libpq; how to install it is operating system specific.
+
+
+brew
+Setup:
+From /database; 
+- enter Database_creation.sql and change the user from postgre to your user
+- run the scripts in the following order: Database_creation.sql, Table_creation.sql, Initial_data.sql
+From /application;
+-  change the constants in 
 
 
 

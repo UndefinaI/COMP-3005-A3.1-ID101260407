@@ -10,9 +10,11 @@ This project uses psycopg3 to work. From the command line:
 
 
 Setup:
+
 From /database; 
 - enter Database_creation.sql and change the user from postgre to your user
 - run the scripts in the following order: Database_creation.sql, Table_creation.sql, Initial_data.sql
+
 From /application;
 - change the constants at the top of the file in application.py
 

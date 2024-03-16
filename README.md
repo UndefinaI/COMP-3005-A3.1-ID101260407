@@ -23,16 +23,12 @@ The usage is simple; it's text based input with clear instructions. It gives nea
 
 
 
-
 Function Breakdown:
-
-
-
-
+Each function uses sql calls via the cursor to interface with the database. All follow the same basic format: the function first enters a try/except to catch errors and, if an error occurs, it prints what it is. It then executes some sql with cursor.execute("..."). It then informs the user of the results, and commits those results if changes were made. 
 
 
 Demonstration video:
-
+	https://youtu.be/V8EMY7nk0XI
 
 
 

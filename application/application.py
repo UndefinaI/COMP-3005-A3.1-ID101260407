@@ -5,7 +5,7 @@ import psycopg
 
 
 USERNAME = "postgres"
-PASSWORD = "17GIGSofcat"
+PASSWORD = "password"
 PORT = "5432"
 
 
@@ -122,17 +122,6 @@ while (choice != "0"):
         deleteStudent(sid)
 
     print("")
-
-
-#addStudent("Reggie", "Hyuga", "Reggie@email.com", "2022-09-01")
-#updateStudentEmail(5,"new@email.com")
-#deleteStudent(5)
-#getAllStudents()
-
-
-        
-
-
 
 
 

@@ -4,29 +4,28 @@
 Author: Thomas Roche
 
 
-
-Project details:
-
-
-
 Dependencies: 
 This project uses psycopg3 to work. From the command line:
 	pip install psycopg3
-This is also dependant on libpq; how to install it is operating system specific.
 
 
-brew
 Setup:
 From /database; 
 - enter Database_creation.sql and change the user from postgre to your user
 - run the scripts in the following order: Database_creation.sql, Table_creation.sql, Initial_data.sql
 From /application;
--  change the constants in 
-
-
+- change the constants at the top of the file in application.py
 
 
 Using the application:
+Run the application from the command line or using your IDE. 
+The usage is simple; it's text based input with clear instructions. It gives near-direct access to the functions.
+
+
+
+
+Function Breakdown:
+
 
 
 
